@@ -32,7 +32,7 @@ public class SearchPattern {
 				
 				sc.close();
 			} catch (FileNotFoundException e) {
-				
+				System.out.println("File not found");
 			}
 		}
 
